@@ -20,6 +20,7 @@ This data analysis project focuses on:
 │   └── daily_sales_data_2.csv
 ├── src/
 │   └── data_processing.py
+├── app.py
 ├── requirements.txt
 └── README.md
 ```
@@ -35,7 +36,7 @@ This data analysis project focuses on:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quantium-starter-repo.git
+git clone https://github.com/Arjun-venugopal/quantium-starter-repo.git
 cd quantium-starter-repo
 ```
 
@@ -60,9 +61,15 @@ The `data/` directory contains daily sales data split across multiple CSV files:
 python src/data_processing.py
 ```
 
+4. Run the Dash app to visualize the sales data:
+```bash
+python app.py
+```
+
 ## Project Structure
 
 - `src/data_processing.py`: Main script for data processing and analysis
+- `app.py`: Dash application for visualizing sales data
 - `data/`: Directory containing input CSV files
 - `requirements.txt`: List of Python dependencies
 
@@ -80,5 +87,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/quantium-starter-repo
+Your Name - arjunvenugopal
+Project Link: https://github.com/Arjun-venugopal/quantium-starter-repo.git
